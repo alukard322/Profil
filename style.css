@@ -59,3 +59,13 @@ footer p {
     color: #a0a0a0;
     font-size: 0.8em;
 }
+body {
+    font-family: Arial, sans-serif;
+    background: url('fotki/fon.png') no-repeat center center fixed; /* Заміни на шлях до свого зображення */
+    background-size: cover; /* Застосовує масштабування, щоб картинка покривала весь екран */
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
