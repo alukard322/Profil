@@ -4,53 +4,58 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
+.container {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 header {
     text-align: center;
-    margin: 40px 0;
+    margin-bottom: 20px;
 }
 
 header h1 {
-    color: #a29bfe;
-    font-size: 3em;
+    font-size: 2em;
+    margin-bottom: 0.2em;
 }
 
 header p {
-    color: #9a9a9a;
+    font-size: 1.2em;
+    color: #555;
 }
 
-main {
-    max-width: 800px;
-    margin: 20px;
-    padding: 20px;
-    background: #222831;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+section {
+    margin-bottom: 20px;
 }
 
-main h2 {
-    color: #f8a5c2;
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-main p {
-    color: #c8d6e5;
-    line-height: 1.6;
+.job, .school {
+    margin-bottom: 10px;
 }
 
-footer {
-    margin-top: auto;
-    padding: 10px;
-    text-align: center;
-    background: #393e46;
-    width: 100%;
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
-footer p {
-    color: #a0a0a0;
-    font-size: 0.8em;
-}
 body {
     font-family: Arial, sans-serif;
     background: url('fotki/fon.png') no-repeat center center fixed; /* Заміни на шлях до свого зображення */
